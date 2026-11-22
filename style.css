@@ -1,0 +1,19 @@
+.external-div p {
+    background-color: brown;
+    color: aliceblue;
+    width: 40vw;
+    margin: 10px;
+    padding: 10px;
+}
+
+.external-div #div3 {
+    /* display: none */
+    visibility: hidden;
+}
+
+.external-div #div3-txt {
+    display: inline-block;
+    /* display: block; */
+color: chartreuse;
+    width: 100px;
+}
