@@ -8,19 +8,26 @@
     <style>
         p {
             color: brown;
+            width: 20%;
+            background-color: lightgray;
         }
 
         h4 {
             font-size: 25px;
         }
 
-        li {
-            color: blue;
+        .common {
+            color: green;
         }
+
+        #unique {
+            color: red;
+        }
+        
     </style>
 </head>
 <body>
-    <!-- exampe of inline css -->
+    <!-- example of inline css -->
     <h2 style="background-color: brown; color: white;">My First Css Website</h2>
 
     <div>
@@ -29,9 +36,10 @@
     </div>
 
     <ul>
-        <li>inline css</li>
-        <li>internal or embedded css</li>
-        <li>external css</li>
+        <li class="common">inline css</li>
+        <li class="common">internal or embedded css</li>
+        <li class="common">external css</li>
+        <li id="unique">css frameworks</li>
     </ul>
 </body>
 </html>
