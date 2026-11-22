@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Css</title>
     <!-- example of embedded css -->
     <style>
+        *{
+            margin: 0%;
+        }
+
         p {
             color: brown;
             width: 20%;
@@ -23,9 +28,22 @@
         #unique {
             color: red;
         }
-        
+
+        .group {
+            color: blue;
+        }
+
+        .same1,
+        .same2 {
+            color:darkslategray;
+        }
+
+        .size{
+            font-size: 12px;
+        }
     </style>
 </head>
+
 <body>
     <!-- example of inline css -->
     <h2 style="background-color: brown; color: white;">My First Css Website</h2>
@@ -41,5 +59,18 @@
         <li class="common">external css</li>
         <li id="unique">css frameworks</li>
     </ul>
+
+    <h3>My faviourit food!</h3>
+    <ol class="group">
+        <li>kacha vuna</li>
+        <li>kailla vuna</li>
+    </ol>
+
+    <div>
+        <h2 class="same1">hi there!</h2>
+        <h3 class="same2">how are you?</h3>
+        <p class="common size">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, facere possimus ea beatae delectus excepturi aperiam <span style="color: black">quibusdam</span> eos reiciendis libero.</p>
+    </div>
 </body>
+
 </html>
