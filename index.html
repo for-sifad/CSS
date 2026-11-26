@@ -61,8 +61,43 @@
             */
         }
 
-        input[type="text"] {
+        form input[type="text"] {
             color: brown;
+        }
+
+        /* psudo element */
+        h2 {
+            padding: 30px 0px;
+        }
+
+        h2:hover {
+            color: blue;
+        }
+
+        .input input:focus {
+            outline: none;
+            color: blue;
+        }
+
+        .anchor:visited {
+            color: brown;
+        }
+
+        .pesudo-ul {
+            display: block;
+            padding: 20px 0px;
+        }
+
+        .pesudo-ul li:first-child{
+            color: brown;
+        }
+
+        .pesudo-ul li:last-child{
+            color: brown;
+        }
+
+        .pesudo-ul li:nth-child(2n){
+            color: blue;
         }
     </style>
 </head>
@@ -231,6 +266,23 @@
             box
         </h3>
     </section>
+
+    <!-- pesudo element -->
+    <h2>Hi, There!!</h2>
+
+    <div class="input">
+        <input type="text">
+    </div>
+
+    <a class="anchor" href="https://www.google.com">google mama</a>
+
+    <ul class="pesudo-ul">
+        <li>sifad</li>
+        <li>saiful</li>
+        <li>juthi</li>
+        <li>jidni</li>
+        <li>abdulla</li>
+    </ul>
 </body>
 
 </html>
